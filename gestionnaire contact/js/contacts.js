@@ -1,11 +1,16 @@
 var NewContact = {
-    Nom: "",
-    Prenom: "",
+    init: function (Lname, Fname) {
+        this.Nom = Lname;
+        this.Prenom = Fname;
+    },
+
+    decrire: function () {
+        var description = "Nom : " + this.Nom + ", Prenom : " + this.Prenom;
+        return description;
+    }
 };
 
 var Contact1 = Object.create(NewContact);
-Contact1.Nom = "Smits";
-Contact1.Prenom = "Victor";
+Contact1.init("Smits", "Victor")
 
-console.log(Contact1.Nom);
-console.log(Contact1.Prenom);
+console.log(Contact1.decrire());
