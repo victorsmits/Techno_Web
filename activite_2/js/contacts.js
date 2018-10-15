@@ -8,3 +8,4 @@ Contact1.Nom = "Smits";
 Contact1.Prenom = "Victor";
 
 console.log(Contact1.Nom);
+console.log(Contact1.Prenom);
