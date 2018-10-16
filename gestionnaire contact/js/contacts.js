@@ -12,10 +12,12 @@ var NewContact = {
 
 var ContactList = [];
 
-var info = "1 : afficher la liste de contact" + "\n" + "2 : ajouter à la liste de contact" + "\n" + "0 : quitter";
-console.log(info);
+var info = "1 : afficher la liste de contact \n" +
+	"2 : ajouter à la liste de contact \n" +
+	"0 : quitter";
 
 while (true) {
+	console.log(info);
 	var choix = Number(prompt("introduire choix"));
 
 	if (choix === 1) {
@@ -40,6 +42,4 @@ while (true) {
 	} else if (choix === 0) {
 		break;
 	}
-
-	console.log(info);
 }
