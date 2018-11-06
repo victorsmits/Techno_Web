@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Ajax</title>
+	<h1>Cérémonie des césars</h1>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+		// Affichage 
+		function display(sData) {
+			// Permet d'utiliser les données par la suite
+			var doc = sData.documentElement;
+			console.log(sData);
+			// Récupère les valeurs d'éléments demandés
+			var prix = doc.getElementsByTagName("prix")[2];
+			var nom = doc.getElementsByTagName("nom")[2];
+			var film = doc.getElementsByTagName("film")[2];
+			// Affichage
+			document.getElementById('Prix').innerHTML = prix.firstChild.nodeValue;
+			document.getElementById('Nom').innerHTML = nom.firstChild.nodeValue;
+			document.getElementById('Film').innerHTML = film.firstChild.nodeValue;
+		}
+
+		// Communication serveur
+		function request(appel) {
+			var xhr = new XMLHttpRequest();
+
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					appel(xhr.responseXML);
+				}
+			};
+
+			xhr.open("GET", "cesar.xml", true);
+			xhr.send();
+		}
+
+	</script>
+</head>
+
+<body>
+	<input type="button" value="Afficher le César" onclick="request(display)" /></br></br>
+	<div id="Prix"></div>
+	<div id="Nom"></div>
+	<div id="Film"></div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cinema>
+	<evenement>Cérémonie des Césars</evenement>
+	<sujet>Palmarès</sujet>
+	<date>2006</date>
+	<cesar>
+		<categorie>
+			<prix>César du meilleur acteur</prix>
+			<nom>Michel Bouquet</nom>
+			<film>Le promeneur du Champ de Mars</film>
+		</categorie>
+		<categorie>
+			<prix>César du meilleur film français</prix>
+			<nom>Jacques Audiard</nom>
+			<film>De battre mon coeur s'est arrêté</film>
+		</categorie>
+		<categorie>
+			<prix>César du meilleur film étranger</prix>
+			<nom>Clint Eastwood</nom>
+			<film>Million dollar baby</film>
+		</categorie>
+	</cesar>
+</cinema>
