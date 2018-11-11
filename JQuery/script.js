@@ -30,7 +30,11 @@ $("button#B1").click(function () {
 });
 
 $("button#B2").click(function () {
-	$("div.rect").css("background-color", "green");
+	var color = $("input#color").val();
+	console.log(color);
+	$("div.rect").css({
+		"background-color": color
+	});
 });
 
 $("button#B3").click(function () {
