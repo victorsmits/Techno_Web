@@ -24,8 +24,9 @@ $(".test").on({
 });
 $("button#B1").click(function () {
 	var Hight = parseInt($("div.rect").css("padding-top"));
+	var add = parseInt($("input#px").val());
 	$("div.rect").css({
-		"padding-top": Hight += 10
+		"padding-top": Hight += add
 	});
 });
 
