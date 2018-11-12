@@ -18,7 +18,6 @@ var info = "1 : afficher la liste de contact \n" +
 while (true) {
 	console.log(info);
 	var choix = Number(prompt("introduire choix"));
-
 	if (choix === 1) {
 		console.log("Voici la liste de vos contacts : ");
 

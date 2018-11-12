@@ -1,4 +1,4 @@
-var state = true;
+let state = true;
 $(".test").on({
 	mouseenter: function () {
 		$(this).css({
@@ -22,11 +22,12 @@ $(".test").on({
 		}
 	}
 });
-$("button#B1").click(function () {
-	var Hight = parseInt($("div.rect").css("padding-top"));
-	var add = parseInt($("input#px").val());
-	$("div.rect").css({
-		"padding-top": Hight += add
+$("#B1").click(function () {
+    let rect = $(".rect");
+	let Height = parseInt(rect.css("padding-top"));
+	let add = parseInt($("#px").val());
+	rect.css({
+		"padding-top": Height += add
 	});
 });
 
@@ -44,7 +45,6 @@ $("button#B3").click(function () {
 
 $("button#B4").click(function () {
 	$("div.rect").show();
-
 });
 
 $("button#B5").click(function () {
