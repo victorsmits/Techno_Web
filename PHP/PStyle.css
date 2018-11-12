@@ -14,3 +14,14 @@ form {
 	text-align: center;
 	display: inline-table;
 }
+
+p{
+	width: auto;
+}
+
+.checkbox{
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}

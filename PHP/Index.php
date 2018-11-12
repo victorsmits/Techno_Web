@@ -1,3 +1,6 @@
+<?php
+Session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -7,21 +10,30 @@
 </head>
 
 <body>
-	<form action="">
+	<form method="post">
 		<div> Donnée Personnelles</div>
-		<p>Nom <input type="text" class="box" name="UN"></p>
-		<p>Prénom <input type="text" class="box"></p>
-		<p><input type="submit" value="Page suivant">
-			<input type="submit" value="Annuler" onclick="Session_start()"></p>
-	</form>
+		<p>Nom <input type="text" class="box" name="LN"></p>
+		<p>Prénom <input type="text" class="box" name='FN'></p>
+		<p><input type="submit" name="NPage" value="Page suivante">
+			<input type="submit" name="Cancel" value="Annuler"  ></p>
 
-	<?php
-	function Session_start(){
-		$_Session['Username']= $_GET['UN'];
-		echo $_Session;
-	}
-	    Session_start();
-	?>
+	</form>
+    <?php
+        if(isset($_POST['NPage'])){
+            if(isset($_POST['LN'])){
+                $_SESSION['LastName'] = $_POST['LN'];
+            }
+            if(isset($_POST['FN'])) {
+                $_SESSION['FirstName'] = $_POST['FN'];
+            }
+            header('Location: formation.php');
+        }
+        if(isset($_POST['Cancel'])){
+            header('Location: index.php');
+        }
+
+
+    ?>
 </body>
 
 </html>
