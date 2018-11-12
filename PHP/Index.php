@@ -31,8 +31,6 @@ Session_start();
         if(isset($_POST['Cancel'])){
             header('Location: index.php');
         }
-
-
     ?>
 </body>
 

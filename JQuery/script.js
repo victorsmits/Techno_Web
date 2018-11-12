@@ -44,6 +44,7 @@ $("button#B3").click(function () {
 
 $("button#B4").click(function () {
 	$("div.rect").show();
+
 });
 
 $("button#B5").click(function () {

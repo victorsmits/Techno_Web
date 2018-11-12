@@ -5,8 +5,7 @@ var NewContact = {
 	},
 
 	decrire: function () {
-		var description = "Nom : " + this.Nom + ", Prenom : " + this.Prenom;
-		return description;
+        return "Nom : " + this.Nom + ", Prenom : " + this.Prenom;
 	}
 };
 
