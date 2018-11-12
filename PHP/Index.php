@@ -11,7 +11,7 @@ Session_start();
 
 <body>
 	<form method="post">
-		<div> Donnée Personnelles</div>
+		<h1> Donnée Personnelles</h1>
 		<p>Nom <input type="text" class="box" name="LN"></p>
 		<p>Prénom <input type="text" class="box" name='FN'></p>
 		<p><input type="submit" name="NPage" value="Page suivante">

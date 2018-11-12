@@ -22,7 +22,7 @@
 
 <body>
 <form method="post">
-    <div>Sélection des formations</div>
+    <h1>Sélection des formations</h1>
         <input type="checkbox" name="check_list[]" value="PHP"><label>PHP 250€</label><br/>
         <input type="checkbox" name="check_list[]" value="XML"><label>XML 350€</label><br/>
         <input type="checkbox" name="check_list[]" value="JAVA"><label>JAVA 450€</label><br/>
