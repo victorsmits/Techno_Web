@@ -1,0 +1,26 @@
+
+form {
+	/*margin: 50px;*/
+	/*margin-top: 10px;*/
+	/*text-align: left*/
+}
+
+
+b{
+	width: auto;
+}
+
+.checkbox{
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.row{
+    display: table;
+    margin: 10px;
+}
+input{
+    margin-left: 10px;
+}
