@@ -1,6 +1,22 @@
+<!--PHP-->
 <?php
 Session_start();
+function total($liste){
+    $total = 0;
+    $data = array(
+        "PHP" => 250,
+        "XML" => 350,
+        "JAVA" => 450,
+        "C++" => 550
+    );
+    for($i=0;$i<count($liste);$i++){
+        $elem = $liste[$i];
+        $total += $data[$elem];
+    }
+    return $total;
+}
 ?>
+<!--HTML-->
 <!DOCTYPE html>
 <html>
 
@@ -27,20 +43,4 @@ Session_start();
     </ul>
 </ul>
 </body>
-    <?php
-        function total($liste){
-            $total = 0;
-            $data = array(
-                "PHP" => 250,
-                "XML" => 350,
-                "JAVA" => 450,
-                "C++" => 550
-            );
-            for($i=0;$i<count($liste);$i++){
-                $elem = $liste[$i];
-                $total += $data[$elem];
-            }
-            return $total;
-        }
-    ?>
 </html>

@@ -1,6 +1,21 @@
+<!--PHP-->
 <?php
 Session_start();
+if(isset($_POST['NPage'])){
+    if(isset($_POST['LN'])){
+        $_SESSION['LastName'] = $_POST['LN'];
+    }
+    if(isset($_POST['FN'])) {
+        $_SESSION['FirstName'] = $_POST['FN'];
+    }
+    header('Location: formation.php');
+}
+if(isset($_POST['Cancel'])){
+    header('Location: index.php');
+    session_destroy();
+}
 ?>
+<!--HTML-->
 <!DOCTYPE html>
 <html>
 
@@ -9,29 +24,24 @@ Session_start();
 	<link rel="stylesheet" href="PStyle.css">
 </head>
 
+
 <body>
 	<form method="post">
 		<h1> Donnée Personnelles</h1>
-		<p>Nom <input type="text" class="box" name="LN"></p>
-		<p>Prénom <input type="text" class="box" name='FN'></p>
-		<p><input type="submit" name="NPage" value="Page suivante">
-			<input type="submit" name="Cancel" value="Annuler"></p>
-
+		<div class="row">
+            <b >Lastname
+            <input type="text"  name="LN" >
+            </b>
+        </div>
+        <div class="row">
+		    <b>Firstname
+            <input type="text"  name='FN' ></b>
+        </div>
+        <div class="row">
+            <input type="submit" name="NPage" value="Next Page">
+            <input type="submit" name="Cancel" value="Cancel" >
+        </div>
 	</form>
-	<?php
-        if(isset($_POST['NPage'])){
-            if(isset($_POST['LN'])){
-                $_SESSION['LastName'] = $_POST['LN'];
-            }
-            if(isset($_POST['FN'])) {
-                $_SESSION['FirstName'] = $_POST['FN'];
-            }
-            header('Location: formation.php');
-        }
-        if(isset($_POST['Cancel'])){
-            header('Location: index.php');
-        }
-    ?>
 </body>
 
 </html>

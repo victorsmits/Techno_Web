@@ -1,3 +1,4 @@
+<!--PHP-->
 <?php
     Session_start();
     if(isset($_POST['NPage'])){
@@ -12,6 +13,7 @@
     }
 
 ?>
+<!--HTML-->
 <!DOCTYPE html>
 <html>
 
