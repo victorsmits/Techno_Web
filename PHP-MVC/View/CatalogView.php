@@ -1,8 +1,7 @@
 <form method="post">
-    <h1>Sélection des formations</h1>
-    <input type="submit" name="forma" value="PHP"/><br/>
-    <input type="submit" name="forma" value="AJAX"/><br/>
-    <input type="submit" name="forma" value="JAVA"/><br/>
-    <input type="submit" value="cart" name="cart"/>
+    <h1>Choose a class</h1>
+    <input type="submit" name="Course" value="PHP"/><br/>
+    <input type="submit" name="Course" value="AJAX"/><br/>
+    <input type="submit" name="Course" value="JAVA"/><br/>
 </form>
 

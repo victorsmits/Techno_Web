@@ -1,26 +1,76 @@
-
-form {
-	/*margin: 50px;*/
-	/*margin-top: 10px;*/
-	/*text-align: left*/
+/*----------Global Display------------*/
+html{
+	text-align: center;
+    font-family: Arial, serif;
 }
 
-
-b{
-	width: auto;
+h2,h3{
+    margin: 7px;
 }
 
-.checkbox{
-	padding-top: 10px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	margin-top: 0px;
+/*--------------Button---------------*/
+input[type=submit]{
+    margin:5px;
+    background: #0066A2;
+    color: white;
+    border: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
 }
 
-.row{
-    display: table;
-    margin: 10px;
+input[type=submit]:hover{
+    background: #4373a2;
+    cursor: pointer;
 }
-input{
-    margin-left: 10px;
+
+form.action-button{
+    margin-top: 15px;
+}
+
+/*----------Navigation Bar-----------*/
+div.navbar{
+    padding-top: 20px;
+}
+
+i.cart{
+    width:54px;
+    height: auto;
+    content:url("/img/cart.png");
+}
+
+button.cart{
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: auto;
+    cursor: pointer;
+}
+
+/*-----------Cart Display-----------*/
+div.table{
+    margin:auto;
+    height: auto;
+    width: 27%;
+}
+
+div.table div{
+    padding-top:5px;
+    float:left;
+    width:50%;
+    text-align:center;
+}
+div.table form.action-button div{
+    padding-top: 20px;
+}
+
+div.total{
+    color: brown;
+    font-weight: bolder;
+}
+
+/*-----------Formation Display------*/
+div.Course-Display{
+    margin: 5px;
 }

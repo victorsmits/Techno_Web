@@ -1,4 +1,8 @@
 <?php
+require_once('View/Header.php');
+require_once ('Model/CartModel.php');
+require_once ('Model/CourseModel.php');
+
 $FormaPHP = new Formation(
     'PHP',
     'Comprendre les bases de PHP',
