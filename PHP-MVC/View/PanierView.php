@@ -8,5 +8,5 @@ for ($i=0; $i<count($shop); $i++) {
     echo "<ul>".$elem->Title."</ul>";
 }
 ?>
-</br>
 <ul>Pour un total de <?php echo $shopcart->Count?> €</ul>
+<form method="post"><input type="submit" value="empty" name="empty"></form>

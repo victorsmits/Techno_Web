@@ -5,12 +5,17 @@ class Cart{
 
     public function __construct()
     {
-        $this->CartArray = array();
+        $this->CartArray = [];
         $this->Count = 0;
     }
 
     public function AddToCart($new){
-        return array_push($this->CartArray,$new);
+        if(! in_array($new,$this->CartArray)){
+            return array_push($this->CartArray, $new);
+        }
+        else{
+            return $this->CartArray;
+        }
     }
 
     public function TotalCount(int $price){
