@@ -5,17 +5,17 @@ html{
 }
 
 h2,h3{
-    margin: 7px;
+    margin: 0.9rem;
 }
 
 /*--------------Button---------------*/
 input[type=submit]{
-    margin:5px;
+    margin:0.5rem;
     background: #0066A2;
     color: white;
     border: #0066A2;
-    height: 50px;
-    width: 100px;
+    height: 3rem;
+    width: 5rem;
     font: bold 15px arial, sans-serif;
     text-shadow:none;
 }
@@ -26,16 +26,16 @@ input[type=submit]:hover{
 }
 
 form.action-button{
-    margin-top: 15px;
+    margin-top: 1.3rem;
 }
 
 /*----------Navigation Bar-----------*/
 div.navbar{
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 i.cart{
-    width:54px;
+    width: 5rem;
     height: auto;
     content:url("/img/cart.png");
 }
@@ -43,7 +43,7 @@ i.cart{
 button.cart{
     border: none;
     color: white;
-    font-size: 16px;
+    font-size: 0.6rem;
     padding: auto;
     cursor: pointer;
 }
@@ -52,17 +52,17 @@ button.cart{
 div.table{
     margin:auto;
     height: auto;
-    width: 27%;
+    width: 20rem;
 }
 
 div.table div{
-    padding-top:5px;
+    padding-top: 0.5rem;
     float:left;
-    width:50%;
+    width: 10rem;
     text-align:center;
 }
 div.table form.action-button div{
-    padding-top: 20px;
+    padding-top: auto;
 }
 
 div.total{
@@ -72,5 +72,5 @@ div.total{
 
 /*-----------Formation Display------*/
 div.Course-Display{
-    margin: 5px;
+    margin: auto;
 }
