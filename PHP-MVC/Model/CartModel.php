@@ -3,23 +3,38 @@ class Cart{
     public $CartArray;
     public $Count;
 
+    // constructor of a cart
     public function __construct()
     {
         $this->CartArray = [];
-        $this->Count = 0;
+        $this->AmountArray = [];
+        $this->Cost = 0;
     }
-    public function AddToCart($new){
-        if(! in_array($new,$this->CartArray)){
-            $var = (array)$new;
-            $price = (int)$var['Price'];
-            $this->TotalCount($price);
-            return array_push($this->CartArray, $new);
+    // add new formation to a cart
+    public function AddToCart($new)
+    {
+        // check if the formation is not already in the formation
+        if (!in_array($new, $this->CartArray)) {
+            array_push($this->CartArray, $new);
         }
-        else{
-            return $this->CartArray;
-        }
+        $this->AmountArray[$new->Title] += 1;
+        $this->TotalCount($new);
     }
-    public function TotalCount(int $price){
-        return $this->Count += $price;
+    // count the total cost of a cart
+    public function TotalCount($new){
+        $price = $new->Price;
+        return $this->Cost += $price;
+    }
+
+    public function DelFormation($course){
+        $this->AmountArray[$course] -= 1;
+
+        for ($i=0; $i<count($this->CartArray); $i++) {
+            $elem = $this->CartArray[$i];
+            if($elem->Title == $course){
+                $price = $elem->Price;
+                return $this->Cost -= $price;
+            }
+        }
     }
 }

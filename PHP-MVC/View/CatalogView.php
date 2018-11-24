@@ -4,4 +4,3 @@
     <input type="submit" name="Course" value="AJAX"/><br/>
     <input type="submit" name="Course" value="JAVA"/><br/>
 </form>
-

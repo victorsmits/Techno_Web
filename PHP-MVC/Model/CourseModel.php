@@ -5,6 +5,7 @@ class Formation
     public $Obj;
     public $Price;
     public $Time;
+    public $Amount;
 
     public function __construct($title,$desc,$price,$time)
     {

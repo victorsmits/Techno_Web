@@ -1,10 +1,11 @@
 <!--HTML-->
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="/CSS/PStyle.css">
+    <link rel="stylesheet" href="/CSS/MVCStyle.css">
+    <title>Formations</title>
 </head>
 <div class="navbar">
     <form method="post">

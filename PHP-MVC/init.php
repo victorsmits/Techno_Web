@@ -1,8 +1,10 @@
 <?php
+// import Model and View needed
 require_once('View/Header.php');
 require_once('Model/CartModel.php');
 require_once ('Model/CourseModel.php');
 
+//initialize formation
 $FormaPHP = new Formation(
     'PHP',
     'Comprendre les bases de PHP',
