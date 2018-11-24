@@ -2,6 +2,7 @@
 class Cart{
     public $CartArray;
     public $Count;
+    public $AmountArray;
 
     // constructor of a cart
     public function __construct()
@@ -34,6 +35,18 @@ class Cart{
             if($elem->Title == $course){
                 $price = $elem->Price;
                 return $this->Cost -= $price;
+            }
+        }
+    }
+
+    public function AddAmount($course,$Amount){
+        $this->AmountArray[$course] += $Amount;
+
+        for ($i=0; $i<count($this->CartArray); $i++) {
+            $elem = $this->CartArray[$i];
+            if($elem->Title == $course){
+                $price = $elem->Price;
+                return $this->Cost += $price * $Amount;
             }
         }
     }

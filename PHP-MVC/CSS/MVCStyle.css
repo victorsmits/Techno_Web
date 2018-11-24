@@ -21,7 +21,12 @@ input[type=submit]{
     cursor: pointer;
 }
 
-input[type=submit].del{
+input[type=submit]:hover{
+    background: #4373a2;
+    cursor: pointer;
+}
+
+button[type=submit].del{
     margin:0;
     height: auto;
     width: auto;
@@ -34,7 +39,7 @@ input[type=submit].del{
     cursor: pointer;
 }
 
-input[type=submit]:hover{
+button[type=submit].del:hover{
     background: #4373a2;
     cursor: pointer;
 }
@@ -64,29 +69,53 @@ button.cart{
 
 /*-----------Cart Display-----------*/
 div.table{
-    margin:auto;
+    display: table;
+    border-bottom: 1px black solid;
+    text-align: left;
+    margin-left:25rem;
+    padding-bottom:2rem;
+    float: left;
     height: auto;
     width: 40rem;
 }
+
+div.table div{
+    float: left;
+    padding-top: 0.5rem;
+    width: 10rem;
+}
+
+h1.table-title{
+    text-align: left;
+    margin-left:25rem;
+    padding-bottom:2rem;
+    width: 40rem;
+    border-bottom: 1px black solid;
+}
+
+div.table div.del-button{
+    width: 1rem;
+}
+
 div.table2{
-    margin:auto;
+    display: table;
+    border-bottom: 1px black solid;
+    text-align: left;
+    margin-right:25rem;
+    padding-bottom:2rem;
+    float: right;
     height: auto;
     width: 20rem;
 }
 
-div.table div{
+div.table2 div{
     padding-top: 0.5rem;
-    float:left;
+    float:right;
     width: 10rem;
     text-align:center;
 }
 
-div.table2 div{
-    padding-top: 0.5rem;
-    float:left;
-    width: 10rem;
-    text-align:center;
-}
+
 div.table form.action-button div{
     padding-top: auto;
 }
