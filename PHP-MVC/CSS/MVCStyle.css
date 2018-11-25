@@ -142,8 +142,9 @@ div.total{
     font-weight: bolder;
 }
 
-input.list {
-    width: 2.5em;
+input[list] {
+    text-align: center  ;
+    width: 20%;
 }
 /*---------Formation Display------*/
 div.Course-Display{

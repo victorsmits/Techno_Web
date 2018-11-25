@@ -31,7 +31,7 @@ class Cart{
             $this->Cost += $price * $Amount ;
         }
     }
-
+    // use to erase a specified formation from a session cart
     public function DelFormation($course){
         for ($i=0; $i<count($this->CartArray); $i++) {
             $elem = $this->CartArray[$i];
@@ -43,8 +43,8 @@ class Cart{
             }
         }
     }
-
-    public function AddAmount($course,$Amount){
+    // use to change the formation's quantity in a session cart
+    public function ChangeQty($course,$Amount){
         $this->AmountArray[$course] = $Amount;
         for ($i=0; $i<count($this->CartArray); $i++) {
             $elem = $this->CartArray[$i];

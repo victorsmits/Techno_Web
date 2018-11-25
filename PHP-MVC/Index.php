@@ -10,13 +10,14 @@ if(empty($_SESSION['Cart'])){
 }
 
 // import the view of the ca
-if(empty($_GET)& empty($_GET) |isset($_GET['back'])){
+if(empty($_POST)& empty($_GET) | isset($_POST['back'])){
     require('View/CatalogView.php');
 }
 
-if(isset($_GET["Course"])) {
+// if Course --> Select the Formation depending on the clicked button
+if(isset($_POST["Course"])) {
     // check wich formation has been clicked on
-    switch ($_GET["Course"]){
+    switch ($_POST["Course"]){
         case 'PHP':
             $Formation = $FormaPHP;
             break;
@@ -28,13 +29,12 @@ if(isset($_GET["Course"])) {
             break;
     }
     $_SESSION['Forms'] = serialize($Formation); // Stock the selected formation in session
-    $vars = (array)$Formation;
     require('View/CourseView.php'); // display the selected formation
 }
 
 // if add button clicked --> add de current display formation to the session's cart
-if(isset($_GET['add'])) {
-    if ($_GET['add'] == 'Buy') {
+if(isset($_POST['add'])) {
+    if ($_POST['add'] == 'Buy') {
         $Session_Course = unserialize($_SESSION['Forms']);
         $cart = unserialize($_SESSION['Cart']);
         $cart->AddToCart($Session_Course);
@@ -44,15 +44,16 @@ if(isset($_GET['add'])) {
 }
 
 // if cart button clicked --> display the session's cart
-if(isset($_GET['Cart'])){
-    if($_GET['Cart']=='Cart') {
+if(isset($_POST['Cart'])){
+    if($_POST['Cart']=='Cart') {
         require('View/CartView.php');
     }
 }
 
-if(isset($_GET['del'])){
+// if del --> use DelFormation from cart object to erase it from the session cart
+if(isset($_POST['del'])){
     $Shop_Cart = unserialize($_SESSION['Cart']);
-    $Shop_Cart->DelFormation($_GET['del']);
+    $Shop_Cart->DelFormation($_POST['del']);
     if($Shop_Cart->Cost<0){
         $_SESSION['Cart'] = serialize(new Cart());
     }
@@ -62,20 +63,22 @@ if(isset($_GET['del'])){
     require('View/CartView.php');
 }
 
-
-if(isset($_GET ['Selected']) & isset($_GET['qty'])){
+// if selescted and qty --> use ChangeQty from the cart object to change de qty of formation
+if(isset($_POST ['Selected']) & isset($_POST['qty'])){
     $Shop_Cart = unserialize($_SESSION['Cart']);
-    $Shop_Cart->AddAmount($_GET['Selected'],$_GET['qty']);
+    $Shop_Cart->ChangeQty($_POST['Selected'],$_POST['qty']);
     $_SESSION['Cart'] = serialize($Shop_Cart);
     require('View/CartView.php');
 }
 
 // if empty button clicked --> empty the session's cart
-if(isset($_GET['empty'])){
-    if($_GET['empty'] == 'empty'){
+if(isset($_POST['empty'])){
+    if($_POST['empty'] == 'empty'){
         $Session_cart = new Cart();
         $_SESSION['Cart'] = serialize($Session_cart);
         require ('View/CatalogView.php');
     }
 }
+
+// insert footer
 require_once('View/Footer.php');
