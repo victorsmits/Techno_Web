@@ -1,4 +1,4 @@
-<form method="post">
+<form method="get">
     <h1>Choose a class</h1>
     <input type="submit" name="Course" value="PHP"/><br/>
     <input type="submit" name="Course" value="AJAX"/><br/>

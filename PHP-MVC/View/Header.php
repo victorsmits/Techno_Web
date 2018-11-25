@@ -8,7 +8,7 @@
     <title>Formations</title>
 </head>
 <div class="navbar">
-    <form method="post">
+    <form method="get">
         <button type="submit" name="Cart" value="Cart" class="cart"><i class="cart"></i></button>
     </form>
 </div>

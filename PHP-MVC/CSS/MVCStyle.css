@@ -1,6 +1,6 @@
 /*----------Global Display------------*/
 html{
-	text-align: center;
+    text-align: center;
     font-family: Arial, serif;
 }
 
@@ -68,13 +68,29 @@ button.cart{
 }
 
 /*-----------Cart Display-----------*/
+div.body{
+    text-align: center;
+    height:auto;
+    width: 90rem;
+    padding-left: 40rem;
+}
+
+div.body div.col1{
+    width: 40rem;
+    float:left;
+}
+
+div.body div.col2{
+    width: 40rem;
+    float:right;
+}
+
 div.table{
     display: table;
     border-bottom: 1px black solid;
     text-align: left;
-    margin-left:25rem;
     padding-bottom:2rem;
-    float: left;
+    margin-bottom: 0.9rem;
     height: auto;
     width: 40rem;
 }
@@ -87,11 +103,17 @@ div.table div{
 
 h1.table-title{
     text-align: left;
-    margin-left:25rem;
     padding-bottom:2rem;
     width: 40rem;
     border-bottom: 1px black solid;
 }
+
+h1.table2-title{
+    text-align: left;
+    padding-bottom:2rem;
+    border-bottom: 1px black solid;
+}
+
 
 div.table div.del-button{
     width: 1rem;
@@ -101,9 +123,7 @@ div.table2{
     display: table;
     border-bottom: 1px black solid;
     text-align: left;
-    margin-right:25rem;
-    padding-bottom:2rem;
-    float: right;
+    padding-bottom:0.9rem;
     height: auto;
     width: 20rem;
 }
@@ -125,7 +145,11 @@ div.total{
     font-weight: bolder;
 }
 
-/*-----------Formation Display------*/
+input.list {
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+/*---------Formation Display------*/
 div.Course-Display{
     margin: auto;
 }

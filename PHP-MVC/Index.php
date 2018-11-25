@@ -10,13 +10,13 @@ if(empty($_SESSION['Cart'])){
 }
 
 // import the view of the ca
-if(!isset($_POST["Course"])& !isset($_POST['Cart'])& !isset($_POST['del'])){
-require_once('View/CatalogView.php');
+if(empty($_GET)& empty($_GET) |isset($_GET['back'])){
+    require('View/CatalogView.php');
 }
 
-if(isset($_POST["Course"])) {
+if(isset($_GET["Course"])) {
     // check wich formation has been clicked on
-    switch ($_POST["Course"]){
+    switch ($_GET["Course"]){
         case 'PHP':
             $Formation = $FormaPHP;
             break;
@@ -33,34 +33,49 @@ if(isset($_POST["Course"])) {
 }
 
 // if add button clicked --> add de current display formation to the session's cart
-if(isset($_POST['add'])) {
-    if ($_POST['add'] == 'Buy') {
+if(isset($_GET['add'])) {
+    if ($_GET['add'] == 'Buy') {
         $Session_Course = unserialize($_SESSION['Forms']);
         $cart = unserialize($_SESSION['Cart']);
         $cart->AddToCart($Session_Course);
         $_SESSION['Cart'] = serialize($cart);
+        require('View/CatalogView.php');
     }
 }
 
 // if cart button clicked --> display the session's cart
-if(isset($_POST['Cart'])){
-    if($_POST['Cart']=='Cart') {
+if(isset($_GET['Cart'])){
+    if($_GET['Cart']=='Cart') {
         require('View/CartView.php');
     }
 }
 
-if(isset($_POST['del'])){
+if(isset($_GET['del'])){
     $Shop_Cart = unserialize($_SESSION['Cart']);
-    $Shop_Cart->DelFormation($_POST['del']);
+    $Shop_Cart->DelFormation($_GET['del']);
+    if($Shop_Cart->Cost<0){
+        $_SESSION['Cart'] = serialize(new Cart());
+    }
+    else {
+        $_SESSION['Cart'] = serialize($Shop_Cart);
+    }
+    require('View/CartView.php');
+}
+
+
+if(isset($_GET ['Selected']) & isset($_GET['qty'])){
+    $Shop_Cart = unserialize($_SESSION['Cart']);
+    $Shop_Cart->AddAmount($_GET['Selected'],$_GET['qty']);
     $_SESSION['Cart'] = serialize($Shop_Cart);
     require('View/CartView.php');
 }
 
 // if empty button clicked --> empty the session's cart
-if(isset($_POST['empty'])){
-    if($_POST['empty'] == 'empty'){
+if(isset($_GET['empty'])){
+    if($_GET['empty'] == 'empty'){
         $Session_cart = new Cart();
         $_SESSION['Cart'] = serialize($Session_cart);
+        require ('View/CatalogView.php');
     }
 }
 require_once('View/Footer.php');

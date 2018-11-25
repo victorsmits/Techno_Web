@@ -9,7 +9,7 @@ if(!empty($vars)){
     <div class="Course-Display"><h2>Cost:</h2><?php echo($Course['Price'])?> €</div>
     <div class="Course-Display"><h2>Date:</h2><?php echo ($Course['Time'])?></div>
 </div>
-<form method="post" class="action-button">
+<form method="get" class="action-button">
     <input type="submit" value="Buy" name="add">
     <input type="submit" value="Back" name="add">
 </form >
