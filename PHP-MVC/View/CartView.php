@@ -18,7 +18,7 @@
                             ."<div><b>Formation</b></div>"
                             ."<div><b>Quantity</b></div>"
                             ."<div><b>Cost</b></div>"
-                            ."<div></br></div>";
+                            ."<div style='width: 10%'></br></div>";
 
                         echo "<div>".$elem->Title."</div>";
                         echo "<div><form method='get'>"
@@ -54,7 +54,7 @@
     </div>
     <div class="col2">
         <div class="table2">
-            <h1 class="table2-title">TOTAL</h1>
+            <h1 class="table-title">TOTAL</h1>
             <?php
             if($Shop_Cart->Cost>0) {
                 echo "<div>" . $Shop_Cart->Cost . "€</div>";
