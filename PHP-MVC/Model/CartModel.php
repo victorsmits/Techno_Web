@@ -17,6 +17,7 @@ class Cart{
         // check if the formation is not already in the formation
         if (!in_array($new, $this->CartArray)) {
          $this->CartArray[$new->Title]= $new;
+         $this->AmountArray[$new->Title] = 0;
         }
         $this->AmountArray[$new->Title] += 1;
         $this->TotalCount();
