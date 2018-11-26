@@ -59,6 +59,7 @@ if(isset($_POST['del'])){
     }
     else {
         $_SESSION['Cart'] = serialize($Shop_Cart);
+
     }
     require('View/CartView.php');
 }

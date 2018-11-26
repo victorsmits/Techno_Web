@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc8d7dde-11b0-474a-a282-b2ab9bb9e97d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP-MVC/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP-MVC/Model/CartModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/Model/CartModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP-MVC/View/CartView.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/View/CartView.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +32,26 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4941427">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/PHP-MVC/Index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="355">
-                  <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+                <state relative-caret-position="826">
+                  <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/PHP-MVC/View/CartView.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+                  <folding>
+                    <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -45,10 +61,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css">
+            <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CartModel.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="592">
-                  <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+                <state relative-caret-position="615">
+                  <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
@@ -139,13 +155,14 @@
         <option value="$PROJECT_DIR$/PHP-MVC/init.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/Model/CourseModel.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/Quantity.php" />
-        <option value="$PROJECT_DIR$/PHP-MVC/Model/CartModel.php" />
-        <option value="$PROJECT_DIR$/PHP-MVC/Index.php" />
-        <option value="$PROJECT_DIR$/PHP-MVC/View/CartView.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/View/CatalogView.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/View/CourseView.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/View/Header.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css" />
+        <option value="/Applications/MAMP/bin/php/php7.2.8/conf/php.ini" />
+        <option value="$PROJECT_DIR$/PHP-MVC/Index.php" />
+        <option value="$PROJECT_DIR$/PHP-MVC/Model/CartModel.php" />
+        <option value="$PROJECT_DIR$/PHP-MVC/View/CartView.php" />
       </list>
     </option>
   </component>
@@ -164,10 +181,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="MAMP" />
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -177,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,7 +239,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -243,7 +260,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -283,8 +300,8 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.LogView.php" />
-      <item itemvalue="PHP Built-in Web Server.Mamp" />
       <item itemvalue="JavaScript Debug.Index.php" />
+      <item itemvalue="PHP Built-in Web Server.Mamp" />
     </list>
     <recent_temporary>
       <list>
@@ -338,6 +355,9 @@
       <workItem from="1543049668065" duration="43000" />
       <workItem from="1543049776718" duration="186000" />
       <workItem from="1543050141847" duration="38471000" />
+      <workItem from="1543165374685" duration="462000" />
+      <workItem from="1543166845722" duration="141000" />
+      <workItem from="1543254816234" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1542019600781</created>
@@ -427,14 +447,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104313000" />
+    <option name="totallyTimeSpent" value="108143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.1970181" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.20234291" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -442,10 +462,10 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32871288" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.34006462" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32871288" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.32871288" />
@@ -485,6 +505,15 @@
     <MESSAGE value="css modification multisize screen" />
     <MESSAGE value="comment + GET-&gt; POST" />
     <option name="LAST_COMMIT_MESSAGE" value="comment + GET-&gt; POST" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -637,13 +666,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/MAMP/bin/php/php7.2.10/conf/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="1844" lean-forward="true" selection-start-line="1844" selection-end-line="1844" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Applications/MAMP/bin/php/php7.2.10/conf/php.ini" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -664,19 +687,7 @@
     <entry file="file://$PROJECT_DIR$/César/cesar.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/Quantity.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/View/CartView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/Quantity.php" />
     <entry file="file://$PROJECT_DIR$/PHP-MVC/View/CourseView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -705,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CartModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CourseModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -726,17 +730,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/Index.php">
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="2190">
+          <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css">
+    <entry file="file:///Applications/MAMP/bin/php/php7.2.8/conf/php.ini" />
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="826">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CartModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/View/CartView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

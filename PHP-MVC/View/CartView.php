@@ -12,8 +12,7 @@
                 echo "<div><h2>CART EMPTY</h2></div>";
             }
             if (!empty($shop)) {
-                for ($i=0; $i<count($shop); $i++) {
-                    $elem = $shop[$i];
+                foreach ($shop as $elem) {
                     if($Quantity[$elem->Title]>0){
 
                         //title of collumn
@@ -73,7 +72,7 @@
             ?>
             <form method="post" class="action-button">
                 <div><input type="submit" value="empty" name="empty"></div>
-                <div><input type="submit" value="Close"></div>
+                <div><input type="submit" value="back" name="back"></div>
             </form>
         </div>
     </div>
