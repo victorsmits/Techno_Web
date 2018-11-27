@@ -8,7 +8,7 @@
                 $shop = $Shop_Cart->CartArray;
                 $Quantity = $Shop_Cart->AmountArray;
             }
-            if(empty($Shop_Cart)|empty($shop)){
+            if(empty($Shop_Cart)|| empty($shop)){
                 echo "<div><h2>CART EMPTY</h2></div>";
             }
             if (!empty($shop)) {

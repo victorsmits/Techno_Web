@@ -37,14 +37,15 @@ class Cart{
             $elem = $this->CartArray[$course];
             $price = $elem->Price;
             $this->Cost -= $price * $this->AmountArray[$course];
-//            $this->AmountArray[$course] = null;
-//            $this->CartArray[$course] = null;
             unset($this->AmountArray[$course]);
             unset($this->CartArray[$course]);
         }
     }
 
-    public function AddAmount($course,$Amount){
+    public function ChangeQty($course,$Amount){
+        if($Amount == 0){
+            $this->DelFormation($course);
+        }
         $this->AmountArray[$course] = $Amount;
         for ($i=0; $i<count($this->CartArray); $i++) {
             $elem = $this->CartArray[$i];
