@@ -1,8 +1,8 @@
 <?php
 class Cart{
-    public $CartArray;
-    public $Count;
-    public $AmountArray;
+    private $CartArray;
+    private $Cost;
+    private $AmountArray;
 
     // constructor of a cart
     public function __construct()
@@ -12,6 +12,24 @@ class Cart{
         $this->AmountArray = [];
         $this->Cost = 0;
     }
+    public function __get($name)
+    {
+        switch ($name) {
+            case 'CartArray':
+                return $this->CartArray;
+                break;
+
+            case 'Cost':
+                return $this->Cost;
+                break;
+
+            case 'AmountArray':
+                return $this->AmountArray;
+                break;
+
+        }
+    }
+
     // add new formation to a cart
     public function AddToCart($new)
     {
@@ -23,6 +41,7 @@ class Cart{
         $this->AmountArray[$new->Title] += 1;
         $this->TotalCount();
     }
+
     // count the total cost of a cart
     public function TotalCount(){
         $this->Cost =0 ;
@@ -31,6 +50,7 @@ class Cart{
             $Amount = $this->AmountArray[$elem->Title];
             $this->Cost += $price * $Amount ;
         }
+        return $this->Cost;
     }
 
     public function DelFormation($course){
@@ -48,8 +68,7 @@ class Cart{
             $this->DelFormation($course);
         }
         $this->AmountArray[$course] = $Amount;
-        for ($i=0; $i<count($this->CartArray); $i++) {
-            $elem = $this->CartArray[$i];
+        foreach ($this->CartArray as $elem){
             if($elem->Title == $course){
                 $this->TotalCount();
             }

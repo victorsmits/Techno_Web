@@ -1,8 +1,8 @@
 <?php
 require ('init.php');
-require('View/Header.php');
-require('Model/CartModel.php');
-require('Model/CourseModel.php');
+require ('View/Header.php');
+require ('Model/CartModel.php');
+require ('Model/CourseModel.php');
 
 function Home(){
     require('View/CatalogView.php');
@@ -42,7 +42,7 @@ function BuyClasse()
     $cart->AddToCart($Session_Course);
     $_SESSION['Cart'] = serialize($cart);
     Home();
-    echo "add to the shopping cart";
+    echo "<div>".$Session_Course->Title." has been added to the shopping cart</div>";
 }
 
 function DelClasse(){
@@ -63,6 +63,7 @@ function UpdateQty(){
     $Shop_Cart->ChangeQty($_POST['Selected'],$_POST['qty']);
     $_SESSION['Cart'] = serialize($Shop_Cart);
     Cart();
+
 }
 
 function EmptyCart(){

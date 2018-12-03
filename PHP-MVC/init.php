@@ -23,16 +23,21 @@ class init{
             'Du 15 au 20 décembre 2018');
     }
 
-    public function __get($Forma)
+    public function __get($name)
     {
-        if($Forma == 'FormaPHP') {
-            return $this->FormaPHP;
-        }
-        if($Forma == 'FormaJAVA') {
-            return $this->FormaJAVA;
-        }
-        if($Forma == 'FormaAJAX') {
-            return $this->FormaAJAX;
+        switch ($name) {
+            case 'FormaPHP':
+                return $this->FormaPHP;
+                break;
+
+            case 'FormaJAVA':
+                return $this->FormaJAVA;
+                break;
+
+            case 'FormaAJAX':
+                return $this->FormaAJAX;
+                break;
+
         }
     }
 }
