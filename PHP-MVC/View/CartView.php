@@ -67,7 +67,7 @@
             <?php
             if($Shop_Cart->Cost>0) {
                 echo "<div>" . $Shop_Cart->Cost . "€</div>";
-                echo "<div><b>SUB-TOTAL</b></div>";
+                echo "<div><b class='sub-total'>SUB-TOTAL</b></div>";
             }
             ?>
             <form method="post" class="action-button">

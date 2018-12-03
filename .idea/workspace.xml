@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc8d7dde-11b0-474a-a282-b2ab9bb9e97d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PHP-MVC/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP-MVC/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP-MVC/Model/CartModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/Model/CartModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP-MVC/View/CartView.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/View/CartView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP-MVC/View/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/View/Header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP-MVC/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/init.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,52 +30,38 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CartModel.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PHP-MVC/Index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="281">
-                  <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PHP-MVC/init.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PHP-MVC/Controller.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="334">
-                  <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1372">
+              <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHP-MVC/View/CartView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="78" column="6" lean-forward="true" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP-MVC/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -161,19 +142,19 @@
         <option value="/Applications/MAMP/bin/php/php7.2.10/conf/php.ini" />
         <option value="$PROJECT_DIR$/PHP-MVC/CSS/P2Style.css" />
         <option value="$PROJECT_DIR$/PHP-MVC/CSS/PStyle.css" />
-        <option value="$PROJECT_DIR$/PHP-MVC/Model/CourseModel.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/Quantity.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/View/CatalogView.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/View/CourseView.php" />
         <option value="/Applications/MAMP/bin/php/php7.2.8/conf/php.ini" />
-        <option value="$PROJECT_DIR$/PHP-MVC/Model/CartModel.php" />
-        <option value="$PROJECT_DIR$/PHP-MVC/View/CartView.php" />
-        <option value="$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css" />
         <option value="$PROJECT_DIR$/PHP-MVC/View/Header.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/Routeur.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/Index.php" />
-        <option value="$PROJECT_DIR$/PHP-MVC/init.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/Controller.php" />
+        <option value="$PROJECT_DIR$/PHP-MVC/Model/CourseModel.php" />
+        <option value="$PROJECT_DIR$/PHP-MVC/init.php" />
+        <option value="$PROJECT_DIR$/PHP-MVC/Model/CartModel.php" />
+        <option value="$PROJECT_DIR$/PHP-MVC/View/CartView.php" />
+        <option value="$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css" />
       </list>
     </option>
   </component>
@@ -367,7 +348,7 @@
       <workItem from="1543254816234" duration="1472000" />
       <workItem from="1543304244944" duration="430000" />
       <workItem from="1543311588986" duration="82000" />
-      <workItem from="1543822301238" duration="3325000" />
+      <workItem from="1543822301238" duration="7637000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1542019600781</created>
@@ -474,11 +455,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543305066373</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add Routeur and controller managment">
+      <created>1543826158521</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1543826158522</updated>
+    </task>
+    <task id="LOCAL-00017" summary="change public attribute of class into private attribute">
+      <created>1543827468812</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1543827468812</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112367000" />
+    <option name="totallyTimeSpent" value="116679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -538,7 +533,9 @@
     <MESSAGE value="fix issue del and adding to cart" />
     <MESSAGE value="fix issue Amount array index not found" />
     <MESSAGE value="$Cart-&gt;AddAmount =&gt; $Cart-&gt;ChangeQty &amp;&amp; &#10;if AmountArray[$Course] == 0 ==&gt; $Cart-&gt;DelFormation($Course)" />
-    <option name="LAST_COMMIT_MESSAGE" value="$Cart-&gt;AddAmount =&gt; $Cart-&gt;ChangeQty &amp;&amp; &#10;if AmountArray[$Course] == 0 ==&gt; $Cart-&gt;DelFormation($Course)" />
+    <MESSAGE value="add Routeur and controller managment" />
+    <MESSAGE value="change public attribute of class into private attribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="change public attribute of class into private attribute" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,31 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CourseModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/MAMP/bin/php/php7.2.8/conf/php.ini" />
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/View/CartView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP-MVC/View/Header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -785,31 +758,55 @@
     <entry file="file://$PROJECT_DIR$/PHP-MVC/Index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/init.php">
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CartModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="390">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CartModel.php">
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CourseModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-MVC/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1372">
+          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-MVC/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        <state relative-caret-position="219">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/View/CartView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="78" column="6" lean-forward="true" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

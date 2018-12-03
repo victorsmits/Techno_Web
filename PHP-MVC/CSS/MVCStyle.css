@@ -73,6 +73,7 @@ button.cart{
 
 /*-----------Cart Display-----------*/
 div.body{
+    position: relative;
     text-align: center;
     height:auto;
     width: 70%;
@@ -85,14 +86,14 @@ div.body div.col1{
 }
 
 div.body div.col2{
-    width: 40%;
+    margin-right: 20%;
+    width: 20%;
     float:right;
 }
 
 div.table{
     display: table;
     border-bottom: 1px black solid;
-    text-align: left;
     padding-bottom:1.49em;
     margin-bottom: 0.9em;
     height: auto;
@@ -101,8 +102,10 @@ div.table{
 
 div.table div{
     display: table;
+    position: relative;
     float: left;
     padding-top: 0.5em;
+    padding-right: 3%;
     width: 25%;
 }
 
@@ -122,17 +125,19 @@ div.table2{
     border-bottom: 1px black solid;
     text-align: left;
     padding-bottom:0.9em;
+
     height: auto;
-    width: 20em;
+    width: 100%;
 }
 
 div.table2 div{
+    position: relative;
     padding-top: 0.5em;
+    padding-right: 3%;
     float:right;
-    width: 10em;
+    width: 47%;
     text-align:center;
 }
-
 
 div.table form.action-button div{
     padding-top: auto;
@@ -153,14 +158,41 @@ div.Course-Display{
     margin: auto;
 }
 /*-----------Media screen---------*/
+@media screen and (max-width:1440px){
+    div.body div.col2{
+        margin-right: 15%;
+        width: 30%;
+    }
+}
+
 @media screen and (max-width:1059px){
+
     b.sub-total{
         font-size: smaller;
+    }
+    div.table div{
+        display: table;
+        float: left;
+        padding-top: 0.5em;
+        width: 25%;
     }
 }
 
 @media screen and (max-width:885px){
     b.sub-total{
-        font-size: smaller;
+        font-size: 12px;
+    }
+
+    div.table div{
+        padding-right: 2%;
+    }
+
+    input[type=submit]{
+        height: 2em;
+        width: 4em;
+    }
+
+    div.table2{
+        padding-bottom:1.85em;
     }
 }
