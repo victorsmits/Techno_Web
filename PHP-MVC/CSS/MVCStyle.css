@@ -152,3 +152,15 @@ input[list] {
 div.Course-Display{
     margin: auto;
 }
+/*-----------Media screen---------*/
+@media screen and (max-width:1059px){
+    b.sub-total{
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width:885px){
+    b.sub-total{
+        font-size: smaller;
+    }
+}

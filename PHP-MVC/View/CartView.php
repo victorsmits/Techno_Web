@@ -53,7 +53,7 @@
 
                         // insert the formation's price depending of the quantity
                         echo "<div></div>";
-                        echo "<div><b>SUB-TOTAL</b></div>";
+                        echo "<div><b class='sub-total'>SUB-TOTAL</b></div>";
                         echo "<div class=\"total\">".$elem->Price * $Quantity[$elem->Title]. "€</div></div>";
                     }
                 }

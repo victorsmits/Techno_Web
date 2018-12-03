@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="/CSS/MVCStyle.css">
+    <link rel="stylesheet" href="CSS/MVCStyle.css">
     <title>Formations</title>
 </head>
 

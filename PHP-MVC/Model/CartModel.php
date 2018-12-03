@@ -7,6 +7,7 @@ class Cart{
     // constructor of a cart
     public function __construct()
     {
+        //Array : key=>Value --> Key = Formation's Name
         $this->CartArray = [];
         $this->AmountArray = [];
         $this->Cost = 0;
