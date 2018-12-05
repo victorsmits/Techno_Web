@@ -55,7 +55,7 @@ function DelClasse(){
         $_SESSION['Cart'] = serialize($Shop_Cart);
 
     }
-    Home();
+    Cart();
 }
 
 function UpdateQty(){

@@ -157,6 +157,7 @@ input[list] {
 div.Course-Display{
     margin: auto;
 }
+
 /*-----------Media screen---------*/
 @media screen and (max-width:1440px){
     div.body div.col2{
