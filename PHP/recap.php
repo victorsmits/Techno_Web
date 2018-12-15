@@ -1,6 +1,5 @@
 <!--PHP-->
 <?php
-Session_start();
 function total($liste){
     $total = 0;
     $data = array(
