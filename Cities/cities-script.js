@@ -1,3 +1,17 @@
+// Communication serveur
+function request(appel) {
+    let xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            appel(xhr.responseText);
+        }
+    };
+
+    xhr.open("GET", "cities.json", true);
+    xhr.send();
+}
+
 // Affichage
 function display(sData) {
     let cp = document.getElementById('CP');
@@ -12,17 +26,4 @@ function display(sData) {
             document.getElementById("Cities").innerHTML += "<li>" + jsonObj[i]["name"] + "</li>";
         }
     }
-}
-// Communication serveur
-function request(appel) {
-    let xhr = new XMLHttpRequest();
-
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-            appel(xhr.responseText);
-        }
-    };
-
-    xhr.open("GET", "cities.json", true);
-    xhr.send();
 }
