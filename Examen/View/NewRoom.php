@@ -32,11 +32,11 @@
         </div>
     </form>
     <datalist id='meter'>
-        <option value='1'>
-        <option value='2'>
-        <option value='3'>
-        <option value='4'>
-        <option value='5'>
+        <?php
+        for($i = 0;$i <=10;$i++){
+            echo "<option value=$i>";
+        }
+        ?>
     </datalist>
 </div>
 
