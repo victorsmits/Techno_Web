@@ -3,7 +3,7 @@ function request(appel) {
     let xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4 && xhr.status === 200) {
+        if (xhr.readyState === 4 && (xhr.status === 200 || xhr.status === 0)) {
             appel(xhr.responseText);
         }
     };
@@ -21,7 +21,7 @@ function display(sData) {
     document.getElementById("Cities").innerHTML = "";
     for (i = 0; i < jsonObj.length; i++) {
         if (jsonObj[i]["zip"] === cp.value) {
-            console.log(jsonObj[i]);
+            console.log("jsonObj[i] = ",jsonObj[i]);
             document.getElementById("Zip").innerHTML = cp.value + " :";
             document.getElementById("Cities").innerHTML += "<li>" + jsonObj[i]["name"] + "</li>";
         }

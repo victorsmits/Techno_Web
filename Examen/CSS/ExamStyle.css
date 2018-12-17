@@ -1,0 +1,97 @@
+/*----------Global Display------------*/
+html{
+    align-content: center;
+    /*text-align: center;*/
+    font-family: Arial, serif;
+    width: 100%;
+}
+h1{
+    margin: 0.2em;
+}
+h2,h3{
+    margin: 0.9em;
+}
+/*--------------NewRoom---------------*/
+
+div.NewRoom div{
+    display: table;
+    position: relative;
+    float: left;
+    text-align: left;
+    padding-top: 0.5em;
+    width: 40%;
+}
+
+/*--------------Button---------------*/
+input[type=submit]{
+    margin-right: 10px;
+    background: #0066A2;
+    color: white;
+    border: #0066A2;
+    height: 2em;
+    width: auto;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background: #4373a2;
+    cursor: pointer;
+}
+
+/*----------Navigation Bar-----------*/
+div.navbar{
+    text-align: right;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    background-color: orange;
+    width: 50.5%;
+}
+/*-----------House Display-----------*/
+
+div.table{
+    display: table;
+    background-color: #bbb7b7;
+    padding-bottom:1.49em;
+    padding-left:1.49em;
+    margin-bottom: 0.9em;
+    height: auto;
+    width: 50%;
+}
+
+div.table div{
+    display: table;
+    position: relative;
+    float: left;
+    text-align: left;
+    padding-top: 0.5em;
+    width: 40%;
+}
+
+div.table2{
+    background-color: #6992b9;
+    display: table;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom:0.9em;
+    padding-left:1.49em;
+    height: auto;
+    width: 50%;
+}
+
+div.table2 div{
+    position: relative;
+    padding-top: 0.5em;
+    padding-right: 3%;
+
+}
+
+p.title{
+    display: table;
+    position: relative;
+    float: left;
+    text-align: left;
+    width: 40%;
+    margin: 0;
+}

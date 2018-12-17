@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc8d7dde-11b0-474a-a282-b2ab9bb9e97d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Examen/CSS/ExamStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/JS/ExamJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/Model/House.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/Model/Room.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/View/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/View/HouseView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/View/NewRoom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cities/cities-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cities/cities-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP-MVC/View/CartView.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-MVC/View/CartView.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,31 +40,79 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cities/cities.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cities/cities-script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Examen/Index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="525">
+                  <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Examen/JS/ExamJS.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Examen/View/NewRoom.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="540">
+                  <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+                  <folding>
+                    <element signature="n#style#0;n#div#6;n#form#0;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Examen/CSS/ExamStyle.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Examen/Controller.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Examen/JS/ExamJS.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -81,6 +140,8 @@
       <find>header</find>
       <find>Location:</find>
       <find>Index</find>
+      <find>input</find>
+      <find>nav</find>
     </findStrings>
     <replaceStrings>
       <replace>$Session_Course</replace>
@@ -110,11 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/perso/Index.html" />
-        <option value="$PROJECT_DIR$/perso/script.js" />
-        <option value="$PROJECT_DIR$/PHP/PStyle.css" />
-        <option value="$PROJECT_DIR$/PHP-MVC/Model/LogModel.php" />
-        <option value="$PROJECT_DIR$/PHP-MVC/Controler/Index.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/View/LogView.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/Model/FormaModel.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/View/footer.php" />
@@ -135,7 +191,6 @@
         <option value="$PROJECT_DIR$/PHP-MVC/Model/CourseModel.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/init.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/Model/CartModel.php" />
-        <option value="$PROJECT_DIR$/PHP-MVC/View/CartView.php" />
         <option value="$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css" />
         <option value="$PROJECT_DIR$/PHP-MVC/Controller.php" />
         <option value="$PROJECT_DIR$/PHP-JS-HTML/Header.php" />
@@ -154,6 +209,19 @@
         <option value="$PROJECT_DIR$/PHP/formation.php" />
         <option value="$PROJECT_DIR$/PHP/Index.php" />
         <option value="$PROJECT_DIR$/Cities/cities-script.js" />
+        <option value="$PROJECT_DIR$/Examen/Header.php" />
+        <option value="$PROJECT_DIR$/PHP-MVC/Model/Room.php" />
+        <option value="$PROJECT_DIR$/Examen/CSS/ExamCSS.css" />
+        <option value="$PROJECT_DIR$/Examen/Model/Room.php" />
+        <option value="$PROJECT_DIR$/PHP-MVC/View/CartView.php" />
+        <option value="$PROJECT_DIR$/Examen/View/NewRoom.php" />
+        <option value="$PROJECT_DIR$/Examen/Model/House.php" />
+        <option value="$PROJECT_DIR$/Examen/View/Header.php" />
+        <option value="$PROJECT_DIR$/Examen/Controller.php" />
+        <option value="$PROJECT_DIR$/Examen/CSS/ExamStyle.css" />
+        <option value="$PROJECT_DIR$/Examen/Index.php" />
+        <option value="$PROJECT_DIR$/Examen/JS/ExamJS.js" />
+        <option value="$PROJECT_DIR$/Examen/View/HouseView.php" />
       </list>
     </option>
   </component>
@@ -172,7 +240,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="MAMP" />
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
@@ -185,6 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,13 +264,24 @@
             <path>
               <item name="Technologies web" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technologies web" type="462c0819:PsiDirectoryNode" />
-              <item name="Cities" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technologies web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technologies web" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technologies web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technologies web" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -211,6 +291,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.1.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -228,11 +309,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Examen/View" />
+      <recent name="$PROJECT_DIR$/PHP-JS-HTML" />
       <recent name="$PROJECT_DIR$/PHP-MVC" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PHP-JS-HTML" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Examen/Model" />
       <recent name="$PROJECT_DIR$/PHP-MVC" />
     </key>
   </component>
@@ -269,7 +352,7 @@
       </EXTENSION>
       <method v="2" />
     </configuration>
-    <configuration name="Mamp" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/PHP" host="192.168.0.34" port="8000">
+    <configuration name="Mamp" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/Examen" host="192.168.0.34" port="8000">
       <method v="2" />
     </configuration>
     <list>
@@ -344,7 +427,8 @@
       <workItem from="1544791671337" duration="21000" />
       <workItem from="1544791785867" duration="4572000" />
       <workItem from="1544796400667" duration="4663000" />
-      <workItem from="1544969518133" duration="643000" />
+      <workItem from="1544969518133" duration="1352000" />
+      <workItem from="1545030917076" duration="12478000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1542019600781</created>
@@ -500,18 +584,25 @@
       <option name="project" value="LOCAL" />
       <updated>1544865941052</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="up ajax">
+      <created>1544970964738</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1544970964738</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130898000" />
+    <option name="totallyTimeSpent" value="144085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.15508886" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.19466881" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -525,7 +616,7 @@
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32871288" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32772276" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32739726" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4178218" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -604,7 +695,8 @@
     <MESSAGE value="update contact js" />
     <MESSAGE value="update jquery" />
     <MESSAGE value="update php first exo" />
-    <option name="LAST_COMMIT_MESSAGE" value="update php first exo" />
+    <MESSAGE value="up ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="up ajax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -625,16 +717,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/FormaView.php" />
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/PanierView.php" />
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/FormaModel.php" />
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/PanierModel.php" />
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/PStyle.css" />
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/CatalogView.php" />
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/LogView.php" />
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/LogModel.php" />
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/View/LogView.php" />
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/LogModel.php" />
     <entry file="file://$PROJECT_DIR$/PHP-MVC/View/IndexView.php" />
     <entry file="uml://PHP/\Cart">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -721,62 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2715">
-          <caret line="181" column="36" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP-MVC/View/Header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/View/CartView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CourseModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CartModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -797,41 +827,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cities/cities.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/César/ExAjax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/César/cesar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/César/CesarJS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gestionnaire contact/html/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gestionnaire contact/js/contacts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -894,10 +893,167 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Cities/cities.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/César/cesar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gestionnaire contact/js/contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen/Header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CourseModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/Model/CartModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/CSS/MVCStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="156" column="19" lean-forward="true" selection-end-line="198" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-MVC/View/CartView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/César/ExAjax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/César/CesarJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen/View/Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cities/cities-script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen/Model/Room.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen/Model/House.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen/CSS/ExamStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen/View/NewRoom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#6;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen/JS/ExamJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen/View/HouseView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examen/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
         </state>
       </provider>
     </entry>

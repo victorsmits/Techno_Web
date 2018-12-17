@@ -10,8 +10,7 @@
             }
             if(empty($Shop_Cart)|| empty($shop)){
                 echo "<div><h2>CART EMPTY</h2></div>";
-            }
-            if (!empty($shop)) {
+            }if (!empty($shop)) {
                 foreach ($shop as $elem) {
                     if($Quantity[$elem->Title]>0){
 
